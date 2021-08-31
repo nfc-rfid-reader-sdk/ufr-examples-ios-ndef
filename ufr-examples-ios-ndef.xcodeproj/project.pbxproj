@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		343BFF5C26DD1DC5008645E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 343BFF5A26DD1DC5008645E7 /* Main.storyboard */; };
+		343BFF5D26DD1DC5008645E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 343BFF5B26DD1DC5008645E7 /* LaunchScreen.storyboard */; };
+		343BFF6126DE04E1008645E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 343BFF6026DE04E1008645E7 /* Assets.xcassets */; };
+		343BFF6226DE0649008645E7 /* DeviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343BFF3526DD1D22008645E7 /* DeviceViewController.swift */; };
+		343BFF6326DE0649008645E7 /* ReadPayloadDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343BFF3426DD1D22008645E7 /* ReadPayloadDetailsViewController.swift */; };
+		343BFF6426DE0649008645E7 /* ReadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343BFF3726DD1D22008645E7 /* ReadViewController.swift */; };
+		343BFF6526DE0649008645E7 /* ToolsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343BFF3326DD1D22008645E7 /* ToolsViewController.swift */; };
+		343BFF6626DE0649008645E7 /* WriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343BFF3626DD1D22008645E7 /* WriteViewController.swift */; };
+		343BFF6A26DE0668008645E7 /* FunctionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343BFF6726DE0668008645E7 /* FunctionCell.swift */; };
+		343BFF6B26DE0668008645E7 /* HelperFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343BFF6826DE0668008645E7 /* HelperFunc.swift */; };
+		343BFF6C26DE0668008645E7 /* iOSDevCenters+GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343BFF6926DE0668008645E7 /* iOSDevCenters+GIF.swift */; };
+		343BFF7E26DE0677008645E7 /* BluetoothViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343BFF6D26DE0676008645E7 /* BluetoothViewController.swift */; };
+		343BFF7F26DE0677008645E7 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343BFF6E26DE0676008645E7 /* ContactViewController.swift */; };
+		343BFF8026DE0677008645E7 /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343BFF6F26DE0676008645E7 /* EmailViewController.swift */; };
+		343BFF8126DE0677008645E7 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343BFF7026DE0676008645E7 /* LocationViewController.swift */; };
+		343BFF8226DE0677008645E7 /* AddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343BFF7126DE0676008645E7 /* AddressViewController.swift */; };
+		343BFF8326DE0677008645E7 /* SMSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343BFF7226DE0676008645E7 /* SMSViewController.swift */; };
+		343BFF8426DE0677008645E7 /* WhatsappViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343BFF7326DE0676008645E7 /* WhatsappViewController.swift */; };
+		343BFF8526DE0677008645E7 /* WiFiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343BFF7426DE0676008645E7 /* WiFiViewController.swift */; };
+		343BFF8626DE0677008645E7 /* BitcoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343BFF7526DE0676008645E7 /* BitcoinViewController.swift */; };
+		343BFF8726DE0677008645E7 /* PhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343BFF7626DE0676008645E7 /* PhoneViewController.swift */; };
+		343BFF8826DE0677008645E7 /* SkypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343BFF7726DE0676008645E7 /* SkypeViewController.swift */; };
+		343BFF8926DE0677008645E7 /* StreetviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343BFF7826DE0676008645E7 /* StreetviewViewController.swift */; };
+		343BFF8A26DE0677008645E7 /* ViberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343BFF7926DE0676008645E7 /* ViberViewController.swift */; };
+		343BFF8B26DE0677008645E7 /* URIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343BFF7A26DE0676008645E7 /* URIViewController.swift */; };
+		343BFF8C26DE0677008645E7 /* DestinationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343BFF7B26DE0676008645E7 /* DestinationViewController.swift */; };
+		343BFF8D26DE0677008645E7 /* ApplicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343BFF7C26DE0676008645E7 /* ApplicationViewController.swift */; };
+		343BFF8E26DE0677008645E7 /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343BFF7D26DE0676008645E7 /* TextViewController.swift */; };
+		343BFF9126DE06B7008645E7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343BFF8F26DE06B7008645E7 /* SceneDelegate.swift */; };
+		343BFF9226DE06B7008645E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343BFF9026DE06B7008645E7 /* AppDelegate.swift */; };
+		343BFF9526DE088B008645E7 /* DLRadioButton.h in Sources */ = {isa = PBXBuildFile; fileRef = 343BFF9326DE088B008645E7 /* DLRadioButton.h */; };
+		343BFF9626DE088C008645E7 /* DLRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 343BFF9426DE088B008645E7 /* DLRadioButton.m */; };
+		343BFF9926DE08E3008645E7 /* Loader.gif in Resources */ = {isa = PBXBuildFile; fileRef = 343BFF9726DE08E2008645E7 /* Loader.gif */; };
+		343BFF9A26DE08E3008645E7 /* nfc_reading.gif in Resources */ = {isa = PBXBuildFile; fileRef = 343BFF9826DE08E2008645E7 /* nfc_reading.gif */; };
+		343BFF9B26DE0F2A008645E7 /* libuFCoder-ios-static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 343BFF5E26DD1EAF008645E7 /* libuFCoder-ios-static.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		343BFE6D26DD1CF0008645E7 /* ufr-examples-ios-ndef */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "ufr-examples-ios-ndef"; sourceTree = "<group>"; };
+		343BFF3326DD1D22008645E7 /* ToolsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ToolsViewController.swift; path = "ufr-examples-ios-ndef/src/main/ToolsViewController.swift"; sourceTree = "<group>"; };
+		343BFF3426DD1D22008645E7 /* ReadPayloadDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ReadPayloadDetailsViewController.swift; path = "ufr-examples-ios-ndef/src/main/ReadPayloadDetailsViewController.swift"; sourceTree = "<group>"; };
+		343BFF3526DD1D22008645E7 /* DeviceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DeviceViewController.swift; path = "ufr-examples-ios-ndef/src/main/DeviceViewController.swift"; sourceTree = "<group>"; };
+		343BFF3626DD1D22008645E7 /* WriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WriteViewController.swift; path = "ufr-examples-ios-ndef/src/main/WriteViewController.swift"; sourceTree = "<group>"; };
+		343BFF3726DD1D22008645E7 /* ReadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ReadViewController.swift; path = "ufr-examples-ios-ndef/src/main/ReadViewController.swift"; sourceTree = "<group>"; };
+		343BFF5A26DD1DC5008645E7 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = "ufr-examples-ios-ndef/Main.storyboard"; sourceTree = "<group>"; };
+		343BFF5B26DD1DC5008645E7 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = "ufr-examples-ios-ndef/LaunchScreen.storyboard"; sourceTree = "<group>"; };
+		343BFF5E26DD1EAF008645E7 /* libuFCoder-ios-static.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libuFCoder-ios-static.a"; path = "ufr-examples-ios-ndef/lib/libuFCoder-ios-static.a"; sourceTree = "<group>"; };
+		343BFF6026DE04E1008645E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "ufr-examples-ios-ndef/Assets.xcassets"; sourceTree = "<group>"; };
+		343BFF6726DE0668008645E7 /* FunctionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FunctionCell.swift; path = "ufr-examples-ios-ndef/src/helpers/FunctionCell.swift"; sourceTree = "<group>"; };
+		343BFF6826DE0668008645E7 /* HelperFunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HelperFunc.swift; path = "ufr-examples-ios-ndef/src/helpers/HelperFunc.swift"; sourceTree = "<group>"; };
+		343BFF6926DE0668008645E7 /* iOSDevCenters+GIF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "iOSDevCenters+GIF.swift"; path = "ufr-examples-ios-ndef/src/helpers/iOSDevCenters+GIF.swift"; sourceTree = "<group>"; };
+		343BFF6D26DE0676008645E7 /* BluetoothViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BluetoothViewController.swift; path = "ufr-examples-ios-ndef/src/writeTabs/BluetoothViewController.swift"; sourceTree = "<group>"; };
+		343BFF6E26DE0676008645E7 /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContactViewController.swift; path = "ufr-examples-ios-ndef/src/writeTabs/ContactViewController.swift"; sourceTree = "<group>"; };
+		343BFF6F26DE0676008645E7 /* EmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EmailViewController.swift; path = "ufr-examples-ios-ndef/src/writeTabs/EmailViewController.swift"; sourceTree = "<group>"; };
+		343BFF7026DE0676008645E7 /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LocationViewController.swift; path = "ufr-examples-ios-ndef/src/writeTabs/LocationViewController.swift"; sourceTree = "<group>"; };
+		343BFF7126DE0676008645E7 /* AddressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AddressViewController.swift; path = "ufr-examples-ios-ndef/src/writeTabs/AddressViewController.swift"; sourceTree = "<group>"; };
+		343BFF7226DE0676008645E7 /* SMSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SMSViewController.swift; path = "ufr-examples-ios-ndef/src/writeTabs/SMSViewController.swift"; sourceTree = "<group>"; };
+		343BFF7326DE0676008645E7 /* WhatsappViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WhatsappViewController.swift; path = "ufr-examples-ios-ndef/src/writeTabs/WhatsappViewController.swift"; sourceTree = "<group>"; };
+		343BFF7426DE0676008645E7 /* WiFiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WiFiViewController.swift; path = "ufr-examples-ios-ndef/src/writeTabs/WiFiViewController.swift"; sourceTree = "<group>"; };
+		343BFF7526DE0676008645E7 /* BitcoinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BitcoinViewController.swift; path = "ufr-examples-ios-ndef/src/writeTabs/BitcoinViewController.swift"; sourceTree = "<group>"; };
+		343BFF7626DE0676008645E7 /* PhoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PhoneViewController.swift; path = "ufr-examples-ios-ndef/src/writeTabs/PhoneViewController.swift"; sourceTree = "<group>"; };
+		343BFF7726DE0676008645E7 /* SkypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SkypeViewController.swift; path = "ufr-examples-ios-ndef/src/writeTabs/SkypeViewController.swift"; sourceTree = "<group>"; };
+		343BFF7826DE0676008645E7 /* StreetviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StreetviewViewController.swift; path = "ufr-examples-ios-ndef/src/writeTabs/StreetviewViewController.swift"; sourceTree = "<group>"; };
+		343BFF7926DE0676008645E7 /* ViberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViberViewController.swift; path = "ufr-examples-ios-ndef/src/writeTabs/ViberViewController.swift"; sourceTree = "<group>"; };
+		343BFF7A26DE0676008645E7 /* URIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = URIViewController.swift; path = "ufr-examples-ios-ndef/src/writeTabs/URIViewController.swift"; sourceTree = "<group>"; };
+		343BFF7B26DE0676008645E7 /* DestinationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DestinationViewController.swift; path = "ufr-examples-ios-ndef/src/writeTabs/DestinationViewController.swift"; sourceTree = "<group>"; };
+		343BFF7C26DE0676008645E7 /* ApplicationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ApplicationViewController.swift; path = "ufr-examples-ios-ndef/src/writeTabs/ApplicationViewController.swift"; sourceTree = "<group>"; };
+		343BFF7D26DE0676008645E7 /* TextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TextViewController.swift; path = "ufr-examples-ios-ndef/src/writeTabs/TextViewController.swift"; sourceTree = "<group>"; };
+		343BFF8F26DE06B7008645E7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = "ufr-examples-ios-ndef/SceneDelegate.swift"; sourceTree = "<group>"; };
+		343BFF9026DE06B7008645E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "ufr-examples-ios-ndef/AppDelegate.swift"; sourceTree = "<group>"; };
+		343BFF9326DE088B008645E7 /* DLRadioButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DLRadioButton.h; path = "ufr-examples-ios-ndef/DLRadioButton/DLRadioButton.h"; sourceTree = "<group>"; };
+		343BFF9426DE088B008645E7 /* DLRadioButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = DLRadioButton.m; path = "ufr-examples-ios-ndef/DLRadioButton/DLRadioButton.m"; sourceTree = "<group>"; };
+		343BFF9726DE08E2008645E7 /* Loader.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Loader.gif; path = "ufr-examples-ios-ndef/res/drawable/Loader.gif"; sourceTree = "<group>"; };
+		343BFF9826DE08E2008645E7 /* nfc_reading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = nfc_reading.gif; path = "ufr-examples-ios-ndef/res/drawable/nfc_reading.gif"; sourceTree = "<group>"; };
+		346825A026D399A50062D80F /* ufr-examples-ios-ndef.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ufr-examples-ios-ndef.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3468259D26D399A50062D80F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				343BFF9B26DE0F2A008645E7 /* libuFCoder-ios-static.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3468259726D399A50062D80F = {
+			isa = PBXGroup;
+			children = (
+				343BFF9726DE08E2008645E7 /* Loader.gif */,
+				343BFF9826DE08E2008645E7 /* nfc_reading.gif */,
+				343BFF9326DE088B008645E7 /* DLRadioButton.h */,
+				343BFF9426DE088B008645E7 /* DLRadioButton.m */,
+				343BFF9026DE06B7008645E7 /* AppDelegate.swift */,
+				343BFF8F26DE06B7008645E7 /* SceneDelegate.swift */,
+				343BFF7126DE0676008645E7 /* AddressViewController.swift */,
+				343BFF7C26DE0676008645E7 /* ApplicationViewController.swift */,
+				343BFF7526DE0676008645E7 /* BitcoinViewController.swift */,
+				343BFF6D26DE0676008645E7 /* BluetoothViewController.swift */,
+				343BFF6E26DE0676008645E7 /* ContactViewController.swift */,
+				343BFF7B26DE0676008645E7 /* DestinationViewController.swift */,
+				343BFF6F26DE0676008645E7 /* EmailViewController.swift */,
+				343BFF7026DE0676008645E7 /* LocationViewController.swift */,
+				343BFF7626DE0676008645E7 /* PhoneViewController.swift */,
+				343BFF7726DE0676008645E7 /* SkypeViewController.swift */,
+				343BFF7226DE0676008645E7 /* SMSViewController.swift */,
+				343BFF7826DE0676008645E7 /* StreetviewViewController.swift */,
+				343BFF7D26DE0676008645E7 /* TextViewController.swift */,
+				343BFF7A26DE0676008645E7 /* URIViewController.swift */,
+				343BFF7926DE0676008645E7 /* ViberViewController.swift */,
+				343BFF7326DE0676008645E7 /* WhatsappViewController.swift */,
+				343BFF7426DE0676008645E7 /* WiFiViewController.swift */,
+				343BFF6726DE0668008645E7 /* FunctionCell.swift */,
+				343BFF6826DE0668008645E7 /* HelperFunc.swift */,
+				343BFF6926DE0668008645E7 /* iOSDevCenters+GIF.swift */,
+				343BFF6026DE04E1008645E7 /* Assets.xcassets */,
+				343BFF3526DD1D22008645E7 /* DeviceViewController.swift */,
+				343BFF3426DD1D22008645E7 /* ReadPayloadDetailsViewController.swift */,
+				343BFF3726DD1D22008645E7 /* ReadViewController.swift */,
+				343BFF3326DD1D22008645E7 /* ToolsViewController.swift */,
+				343BFF3626DD1D22008645E7 /* WriteViewController.swift */,
+				343BFE6D26DD1CF0008645E7 /* ufr-examples-ios-ndef */,
+				346825A126D399A50062D80F /* Products */,
+				34CE784326D3E49200A8CFF1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		346825A126D399A50062D80F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				346825A026D399A50062D80F /* ufr-examples-ios-ndef.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34CE784326D3E49200A8CFF1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				343BFF5E26DD1EAF008645E7 /* libuFCoder-ios-static.a */,
+				343BFF5B26DD1DC5008645E7 /* LaunchScreen.storyboard */,
+				343BFF5A26DD1DC5008645E7 /* Main.storyboard */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3468259F26D399A50062D80F /* ufr-examples-ios-ndef */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 346825B426D399A70062D80F /* Build configuration list for PBXNativeTarget "ufr-examples-ios-ndef" */;
+			buildPhases = (
+				3468259C26D399A50062D80F /* Sources */,
+				3468259D26D399A50062D80F /* Frameworks */,
+				3468259E26D399A50062D80F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ufr-examples-ios-ndef";
+			productName = "ndef-ios-nfc-ufr";
+			productReference = 346825A026D399A50062D80F /* ufr-examples-ios-ndef.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3468259826D399A50062D80F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					3468259F26D399A50062D80F = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 3468259B26D399A50062D80F /* Build configuration list for PBXProject "ufr-examples-ios-ndef" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3468259726D399A50062D80F;
+			productRefGroup = 346825A126D399A50062D80F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3468259F26D399A50062D80F /* ufr-examples-ios-ndef */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3468259E26D399A50062D80F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				343BFF9926DE08E3008645E7 /* Loader.gif in Resources */,
+				343BFF9A26DE08E3008645E7 /* nfc_reading.gif in Resources */,
+				343BFF6126DE04E1008645E7 /* Assets.xcassets in Resources */,
+				343BFF5C26DD1DC5008645E7 /* Main.storyboard in Resources */,
+				343BFF5D26DD1DC5008645E7 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3468259C26D399A50062D80F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				343BFF9526DE088B008645E7 /* DLRadioButton.h in Sources */,
+				343BFF9626DE088C008645E7 /* DLRadioButton.m in Sources */,
+				343BFF9126DE06B7008645E7 /* SceneDelegate.swift in Sources */,
+				343BFF9226DE06B7008645E7 /* AppDelegate.swift in Sources */,
+				343BFF7E26DE0677008645E7 /* BluetoothViewController.swift in Sources */,
+				343BFF7F26DE0677008645E7 /* ContactViewController.swift in Sources */,
+				343BFF8026DE0677008645E7 /* EmailViewController.swift in Sources */,
+				343BFF8126DE0677008645E7 /* LocationViewController.swift in Sources */,
+				343BFF8226DE0677008645E7 /* AddressViewController.swift in Sources */,
+				343BFF8326DE0677008645E7 /* SMSViewController.swift in Sources */,
+				343BFF8426DE0677008645E7 /* WhatsappViewController.swift in Sources */,
+				343BFF8526DE0677008645E7 /* WiFiViewController.swift in Sources */,
+				343BFF8626DE0677008645E7 /* BitcoinViewController.swift in Sources */,
+				343BFF8726DE0677008645E7 /* PhoneViewController.swift in Sources */,
+				343BFF8826DE0677008645E7 /* SkypeViewController.swift in Sources */,
+				343BFF8926DE0677008645E7 /* StreetviewViewController.swift in Sources */,
+				343BFF8A26DE0677008645E7 /* ViberViewController.swift in Sources */,
+				343BFF8B26DE0677008645E7 /* URIViewController.swift in Sources */,
+				343BFF8C26DE0677008645E7 /* DestinationViewController.swift in Sources */,
+				343BFF8D26DE0677008645E7 /* ApplicationViewController.swift in Sources */,
+				343BFF8E26DE0677008645E7 /* TextViewController.swift in Sources */,
+				343BFF6A26DE0668008645E7 /* FunctionCell.swift in Sources */,
+				343BFF6B26DE0668008645E7 /* HelperFunc.swift in Sources */,
+				343BFF6C26DE0668008645E7 /* iOSDevCenters+GIF.swift in Sources */,
+				343BFF6226DE0649008645E7 /* DeviceViewController.swift in Sources */,
+				343BFF6326DE0649008645E7 /* ReadPayloadDetailsViewController.swift in Sources */,
+				343BFF6426DE0649008645E7 /* ReadViewController.swift in Sources */,
+				343BFF6526DE0649008645E7 /* ToolsViewController.swift in Sources */,
+				343BFF6626DE0649008645E7 /* WriteViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		346825B226D399A70062D80F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		346825B326D399A70062D80F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		346825B526D399A70062D80F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ufr-examples-ios-ndef/ufr-examples-ios-ndef.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AV7K5892U7;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "$(PROJECT_NAME)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ufr-examples-ios-ndef/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.digital.logic.DOO.nfcndeftool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_NAME)/include/uFCoder-bridging-header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		346825B626D399A70062D80F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ufr-examples-ios-ndef/ufr-examples-ios-ndef.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AV7K5892U7;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "$(PROJECT_NAME)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ufr-examples-ios-ndef/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.digital.logic.DOO.nfcndeftool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_NAME)/include/uFCoder-bridging-header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3468259B26D399A50062D80F /* Build configuration list for PBXProject "ufr-examples-ios-ndef" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				346825B226D399A70062D80F /* Debug */,
+				346825B326D399A70062D80F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		346825B426D399A70062D80F /* Build configuration list for PBXNativeTarget "ufr-examples-ios-ndef" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				346825B526D399A70062D80F /* Debug */,
+				346825B626D399A70062D80F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3468259826D399A50062D80F /* Project object */;
+}
